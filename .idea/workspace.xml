@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf8b23d8-9a29-4932-982a-b00b062f022c" name="Changes" comment="" />
+    <list default="true" id="bf8b23d8-9a29-4932-982a-b00b062f022c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_2d.gd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_2d.gd.uid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +56,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/anumo/Coding/prompt-wars",
     "node.js.detected.package.eslint": "true",
@@ -125,7 +131,7 @@
       <workItem from="1772495062141" duration="73000" />
       <workItem from="1772594184829" duration="192000" />
       <workItem from="1772594426608" duration="1258000" />
-      <workItem from="1772595985650" duration="22000" />
+      <workItem from="1772595985650" duration="1030000" />
     </task>
     <servers />
   </component>
