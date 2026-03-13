@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7d4g5thmbwjj"
-path="res://.godot/imported/godotwaka2.png-7d3d010fb4adc0d433467ab1cc4754ed.ctex"
+uid="uid://srm4pdf0v6ot"
+path="res://.godot/imported/Desappearing (96x96).png-16a5d94885a27793527159f7474abb89.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/godotwaka2.png"
-dest_files=["res://.godot/imported/godotwaka2.png-7d3d010fb4adc0d433467ab1cc4754ed.ctex"]
+source_file="res://assets/images/player/Desappearing (96x96).png"
+dest_files=["res://.godot/imported/Desappearing (96x96).png-16a5d94885a27793527159f7474abb89.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dlaq3f3hiu07f"
-path="res://.godot/imported/godotwaka.png-be0a357a149a20c03ee86eeb95a6e8d2.ctex"
+uid="uid://dq0675dvaghpu"
+path="res://.godot/imported/Alternative Terrain - Copy.png-3fed560ac96f7d3013d7abcd69cb8b52.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Godot_Super-Wakatime-611cd94f8c1c56a7c2a382f66a93e0a60f6a74a7/images/godotwaka.png"
-dest_files=["res://.godot/imported/godotwaka.png-be0a357a149a20c03ee86eeb95a6e8d2.ctex"]
+source_file="res://assets/images/tilemap/Alternative Terrain - Copy.png"
+dest_files=["res://.godot/imported/Alternative Terrain - Copy.png-3fed560ac96f7d3013d7abcd69cb8b52.ctex"]
 
 [params]
 

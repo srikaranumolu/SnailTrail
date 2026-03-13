@@ -1,0 +1,79 @@
+[gd_scene format=3 uid="uid://dhm8fuqitx0pa"]
+
+[ext_resource type="Script" uid="uid://bipgdfod62os" path="res://scenes/level_transition.gd" id="1_g1ell"]
+[ext_resource type="Texture2D" uid="uid://da3so0iyawyyn" path="res://assets/images/transition/Transition.png" id="2_transition"]
+[ext_resource type="FontFile" uid="uid://cs6riig6yan70" path="res://assets/fonts/Square-Black.ttf" id="3_2ybma"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x7oan"]
+content_margin_left = 40.0
+content_margin_top = 20.0
+content_margin_right = 40.0
+content_margin_bottom = 20.0
+bg_color = Color(0.686275, 0.733333, 0.764706, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.282353, 0.278431, 0.356863, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_color = Color(0, 0, 0, 0.352941)
+shadow_size = 5
+shadow_offset = Vector2(0, 4)
+
+[node name="LevelTransition" type="Control" unique_id=969648555]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_g1ell")
+
+[node name="DiamondRect" type="TextureRect" parent="." unique_id=1919195082]
+unique_name_in_owner = true
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(20, 20)
+texture = ExtResource("2_transition")
+expand_mode = 1
+
+[node name="SplashPanel" type="PanelContainer" parent="." unique_id=1620732682]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_x7oan")
+
+[node name="LevelLabel" type="Label" parent="SplashPanel" unique_id=1191935605]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.282353, 0.278431, 0.356863, 1)
+theme_override_fonts/font = ExtResource("3_2ybma")
+theme_override_font_sizes/font_size = 128
+text = "LEVEL: 0"
+horizontal_alignment = 1
+vertical_alignment = 1

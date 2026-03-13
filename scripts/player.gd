@@ -10,17 +10,26 @@ var can_move: bool = true
 var jump_count: int = 0
 var curr_level: int = 1
 
+# Camera Shake
+# Moved to Main
+
 func _physics_process(delta: float) -> void:
 	if not alive:
 		return
-	
+
+	if animated_sprite_2d.animation in ["appearing", "disappearing"] and animated_sprite_2d.is_playing():
+		if not is_on_floor():
+			velocity += get_gravity() * delta
+		velocity.x = 0
+		move_and_slide()
+		return
+
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
 		#account for falling off ledges
 		if jump_count == 0:
 			jump_count = 1
-			
 		if animated_sprite_2d.animation == "double_jump" and animated_sprite_2d.is_playing():
 			pass
 		elif velocity.y < 0:
@@ -67,3 +76,15 @@ func die() -> void:
 	animated_sprite_2d.animation = "dying"
 	death_sound.play()
 	alive = false
+
+func appear() -> void:
+	animated_sprite_2d.play("appearing")
+	can_move = false
+	await animated_sprite_2d.animation_finished
+	can_move = true
+
+func disappear() -> void:
+	animated_sprite_2d.play("disappearing")
+	can_move = false
+	await animated_sprite_2d.animation_finished
+	visible = false
