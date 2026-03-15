@@ -8,12 +8,20 @@
 
 config_version=5
 
+enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
+
 [application]
 
-config/name="PromptWars"
-run/main_scene="uid://7gcv743nwhq"
+config/name="SnailTrail"
+config/description="By: Srikar A"
+run/main_scene="uid://u8lon2xmotlj"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*res://scripts/global.gd"
+MusicManager="*res://scripts/music_manager.gd"
 
 [display]
 
@@ -23,6 +31,7 @@ window/size/viewport_height=720
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
+config_version=5
 
 [input]
 

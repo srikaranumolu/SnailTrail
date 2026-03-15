@@ -10,9 +10,6 @@ var can_move: bool = true
 var jump_count: int = 0
 var curr_level: int = 1
 
-# Camera Shake
-# Moved to Main
-
 func _physics_process(delta: float) -> void:
 	if not alive:
 		return
@@ -45,7 +42,6 @@ func _physics_process(delta: float) -> void:
 			animated_sprite_2d.play("idle")
 
 	if can_move:
-		# Handle jump.
 		if Input.is_action_just_pressed("jump"):
 			var can_double_jump: bool = curr_level >= 3
 			if jump_count < 2 and (jump_count == 0 or can_double_jump):
@@ -55,7 +51,6 @@ func _physics_process(delta: float) -> void:
 				if jump_count == 2:
 					animated_sprite_2d.play("double_jump")
 
-		# Get the input direction and handle the movement/deceleration.
 		var direction := Input.get_axis("left", "right")
 		if direction:
 			velocity.x = direction * SPEED

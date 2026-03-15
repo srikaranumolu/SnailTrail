@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://cfj1syqf0n2sy"]
+
+[ext_resource type="Shader" uid="uid://k7odxl5w2yms" path="res://assets/shaders/scroll_shader.gdshader" id="1_ojq2q"]
+
+[resource]
+shader = ExtResource("1_ojq2q")
+shader_parameter/speed = -0.1

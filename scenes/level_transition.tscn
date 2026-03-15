@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dhm8fuqitx0pa"]
 
-[ext_resource type="Script" uid="uid://bipgdfod62os" path="res://scenes/level_transition.gd" id="1_g1ell"]
+[ext_resource type="Script" uid="uid://bipgdfod62os" path="res://scripts/level_transition.gd" id="1_g1ell"]
 [ext_resource type="Texture2D" uid="uid://da3so0iyawyyn" path="res://assets/images/transition/Transition.png" id="2_transition"]
 [ext_resource type="FontFile" uid="uid://cs6riig6yan70" path="res://assets/fonts/Square-Black.ttf" id="3_2ybma"]
 

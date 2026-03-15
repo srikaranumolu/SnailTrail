@@ -189,10 +189,6 @@ color = Color(0.960784, 0.298039, 0.368627, 1)
 hue_variation_min = -1.0
 hue_variation_max = 1.0
 
-[node name="Music" type="AudioStreamPlayer2D" parent="." unique_id=1526833237]
-stream = ExtResource("4_jyhfs")
-autoplay = true
-
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=272887605]
 
 [node name="TransitionLayer" parent="CanvasLayer" unique_id=302978565 instance=ExtResource("5_tbgi4")]

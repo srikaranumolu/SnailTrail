@@ -1,0 +1,10 @@
+[gd_resource type="LabelSettings" format=3 uid="uid://dbnqdolc35kmr"]
+
+[ext_resource type="FontFile" uid="uid://cs6riig6yan70" path="res://assets/fonts/Square-Black.ttf" id="1_r3x0a"]
+
+[resource]
+font = ExtResource("1_r3x0a")
+font_size = 35
+font_color = Color(0.28235295, 0.2784314, 0.35686275, 1)
+outline_size = 3
+outline_color = Color(0.12941177, 0.12156863, 0.1882353, 1)
