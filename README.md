@@ -15,3 +15,11 @@ The main menu has 5 buttons. The play button is used to start the game and begin
 Use W or Space to jump, A to move left, and D to move right. Press jump (W or Space) twice to double jump when you unlock it.
 
 **Screenshots**:
+Main Menu:
+![Screenshot of the main menu](/screenshots/main_menu.png)
+Level 1:
+![Screenshot of the main menu](/screenshots/level1.png)
+Level 2:
+![Screenshot of the main menu](/screenshots/level2.png)
+Level 3:
+![Screenshot of the main menu](/screenshots/level3.png)
